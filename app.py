@@ -6,7 +6,7 @@ import psycopg2
 app = Flask(__name__)
 
 # [STATEFUL DETAYI]: Render'dan alacağımız harici veritabanı URL'si env değişkeninden okunacak
-DB_URL = os.environ.get('DATABASE_URL')
+DB_URL = os.environ.get(postgresql://kerime:dYMO83yvWU4Gem9uSxkqyfMsWuB46BJI@dpg-d8jhmo3tqb8s738b9c3g-a.oregon-postgres.render.com/burcdb)
 
 def get_db_connection():
     if not DB_URL:
